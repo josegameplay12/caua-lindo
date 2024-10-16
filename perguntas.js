@@ -1,12 +1,8 @@
-criaCartao(
-    'Matemática',
-    'O que é o teorema de Pitágoras?',
-    'O teorema de Pitágoras afirma que, em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.'
+criaCartao('Matemática','O que é o teorema de Pitágoras?','O teorema de Pitágoras afirma que, em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.'
     )
     
     criaCartao(
-    'História',
-    'Qual foi o primeiro presidente do Brasil?',
+    'História','Qual foi o primeiro presidente do Brasil?',
     'Deodoro da Fonseca foi o primeiro presidente do Brasil.'
     )
     
