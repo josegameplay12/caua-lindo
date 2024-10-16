@@ -68,6 +68,20 @@ footer{
     color: var(--destaque);
 
 }
-.cartao:hover .conteudo-cartao{
+.cartao:active .conteudo-cartao{
     transform: rotateY(180deg);
 }
+
+.pergunta-cartao, .resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.resposta-cartao{
+    transform: rotatey(180deg);
+    background-color: var(--cartao-verso);
+    border: 2px solid var(--destaque);
+}
+
