@@ -1,0 +1,53 @@
+:root{
+    --fundo :#fefffb;
+    --cartao-frente:#808080;
+    --cartao-verso:#000000;
+    --destaque:#a50aff  ;
+    --preto:#000000;
+    --branco:#ffffff;    
+    }
+    body{
+        background-color: var(--fundo);
+        margin: 0;
+    }
+   
+    header{
+        background-color: var(--preto);
+        color: var(--branco);
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+    header a{
+        color: var(--branco);
+        text-decoration: none;
+    }
+    footer{
+        position: fixed;
+    bottom: 0;
+    background-color: var(--branco);
+    color: var(--preto);
+    width: 100%;
+    text-align: center;
+   
+   
+    }
+
+    #container{
+        display: grid;
+        gap: 3rem;
+        padding: 20px;
+    }
+
+    .conteudo-cartao{
+        padding: 40px;
+        background-color: var(--cartao-frente);
+        box-shadow: 2px 2px 2px var(--preto);
+        border: 1px solid var(--preto);
+        border-radius: 10px;
+    }
+
+    .conteudo-cartao:hover{
+        transform: scale(1.02);
+    }
