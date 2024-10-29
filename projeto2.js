@@ -22,7 +22,7 @@ if(resposta.style.display === 'none') {
 resposta.style.display === 'block';
 }
     }
-    eslse{
+    else{
         resposta.style.display === 'none';
     }
     
